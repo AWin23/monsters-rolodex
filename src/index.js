@@ -1,12 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from 'react';  // Engine on how these apps are built
+import ReactDOM from 'react-dom/client';  // Specifying the engine should be directed to web apps
+import './index.css'; // Default CSS file 
+import App from './App';  //  import app from app.js file. 
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));  //  is looking for an ID of "root" that is in our HTML
+
+//  react dom is rendering the elements for me (my app)
 root.render(
   <React.StrictMode>
+    {/* App right here is conceptually our entire React application */}
     <App />
   </React.StrictMode>
 );
