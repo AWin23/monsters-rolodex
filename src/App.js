@@ -9,7 +9,7 @@ const App = () => {
   const [searchField, setSearchField] = useState(''); // [value, setValue]
   const [monsters, setMonsters] = useState([]);
   const [filteredMonsters, setFilterMonsters] = useState(monsters);
-  const [stringField, setStringField] = useState('');
+  //const [stringField, setStringField] = useState('');
 
     useEffect(() => { 
       fetch('https://jsonplaceholder.typicode.com/users')  // Fetch whatever data it can from here
